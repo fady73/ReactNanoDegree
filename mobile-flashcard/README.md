@@ -1,46 +1,52 @@
 # Mobile Flashcards
 
- Flashcards an app for Android and iOS that lets you create cards for revising and test yourself , and helps you organize these cards inside categories (Decks).
-
+For the Mobile Flashcards project, that allows users to study collections of flashcards. The app will allow users to create different categories of flashcards called "decks", add flashcards to those decks, then take quizzes on those decks.
 It uses React Native, Expo, Redux, & React Navigation & Native Base.
 
-# Android Screenshots
- <img src="/screenshots/android/1.png" width="200" heigh="400"/> <img src="/screenshots/android/2.png" width="200" heigh="400"/> <img src="/screenshots/android/4.png"  width="200" heigh="400"/> <img src="/screenshots/android/5.png"  width="200" heigh="400"/> <img src="/screenshots/android/6.png" width="200" heigh="400"/> <img src="/screenshots/android/7.png"  width="200" heigh="400"/> <img src="/screenshots/android/8.png"  width="200" heigh="400"/> <img src="/screenshots/android/9.png"  width="200" heigh="400"/>
 
-# iOS Screenshots
- <img src="/screenshots/ios/1.png" width="200" heigh="400"/> <img src="/screenshots/ios/2.png" width="200" heigh="400"/> <img src="/screenshots/ios/3.png" width="200" heigh="400"> <img src="/screenshots/ios/4.png"  width="200" heigh="400"/> <img src="/screenshots/ios/5.png"  width="200" heigh="400"/> <img src="/screenshots/ios/6.png" width="200" heigh="400"/> <img src="/screenshots/ios/7.png"  width="200" heigh="400"/> <img src="/screenshots/ios/8.png"  width="200" heigh="400"/>
+# Android Screenshots
+<img src="/screenshots/addCard.png" width="200" heigh="400"/> 
+<img src="/screenshots/allDeck.png" width="200" heigh="400"/> 
+<img src="/screenshots/deck.png"  width="200" heigh="400"/>
+<img src="/screenshots/deckDetails.png"  width="200" heigh="400"/>
+<img src="/screenshots/quiz.png" width="200" heigh="400"/> 
+<img src="/screenshots/result.png"  width="200" heigh="400"/> 
+
 
 ## Installation
 
-1-Clone the repository
+1-Download project
 </br>
-2-Use npm or yarn to install the  dependencies.
-
-```bash
-$ git clone https://github.com/ohefny/Flashcards-Reactnative.git
-$ cd Flashcards-Reactnative
-$ yarn
-```
-
-## Usage
-
-The project can be run with npm or yarn
+2-Use npm or yarn install the  dependencies.
+3-The project can be run with npm or yarn
 
 - `expo start` or `yarn start`
 
-This will open Expo Developer Tools in the browser.  You can then do one of the following.
+## Testing Platforms
 
-- Use your device to test:
-
-    Scan the QR Code using the Expo Client app ([Expo Client for Android & iOS](https://expo.io/tools#client))  from an Android or iOS device.
-- Use an Android Emulator or iOS Simulator to run the app:
-    - [iOS Simulator Setup](https://docs.expo.io/versions/v33.0.0/introduction/installation/#ios-simulator)
-    - [Android Emulator Setup](https://docs.expo.io/versions/v33.0.0/introduction/installation/#android-emulator)
-
-## Testing
-
-This project has been tested on the following platforms:
-
+- Android 10 [RealMe xt]
 - iOS 12 [iPhone 8 Simulator]
-- Android 6.0.1. [Lenovoe K53a48]
-- Android 9 [ Pixel 2 Emulator ]
+
+## The key functionalities are:
+
+* ```List All Deck```
+  - lists all decks of flashcards with their title and number of flashcards
+* ```Create New Deck```
+  - simple text input form for adding a new deck
+* ```Deck details```
+  - shows the title of the deck and the number of cards in it
+  - user can add a card, start a quiz or delete the deck
+* ```Create New card```
+  - user can add a new card to the selected deck
+* ```Quiz```
+  - the app takes the user through all the flashcards
+  - the user can click on show answer to see the answer
+  - the app counts the number of correct answers
+* ```Results```
+  -  at the end of the quiz , it calculated the number of correct answers and shows it to the user
+  -  button to restart the quiz and a button to return to the Deck details page
+  
+
+
+
+
