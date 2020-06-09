@@ -5,12 +5,12 @@ It uses React Native, Expo, Redux, & React Navigation & Native Base.
 
 
 # Android Screenshots
-<img src="./screenshots/addCard.png" width="200" heigh="400"/> 
-<img src="./screenshots/allDeck.png" width="200" heigh="400"/> 
-<img src="./screenshots/deck.png"  width="200" heigh="400"/>
-<img src="./screenshots/deckDetails.png"  width="200" heigh="400"/>
-<img src="./screenshots/quiz.png" width="200" heigh="400"/> 
-<img src="./screenshots/result.png"  width="200" heigh="400"/> 
+<img src="./screenshots/addCard.jpg" width="200" heigh="400"/> 
+<img src="./screenshots/allDeck.jpg" width="200" heigh="400"/> 
+<img src="./screenshots/deck.jpg"  width="200" heigh="400"/>
+<img src="./screenshots/deckDetails.jpg"  width="200" heigh="400"/>
+<img src="./screenshots/quiz.jpg" width="200" heigh="400"/> 
+<img src="./screenshots/result.jpg"  width="200" heigh="400"/> 
 
 
 ## Installation
